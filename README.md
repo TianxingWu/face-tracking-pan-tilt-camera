@@ -4,6 +4,8 @@
     <img src="./images/example.gif">
 </p>
 
+[TOC]
+
 ## 一. 概述
 
 本项目为基于OpenCV-Python和STM32F103单片机的二自由度人脸跟踪舵机云台系统。
@@ -35,7 +37,7 @@
 对普通usb摄像头进行拆解，安装到云台架上，即完成了基本的机械结构。
 
 <p align="center">
-    <img width="500" img src="./images/cam_1_2.jpg"/>
+    <img width="500" img src="./images/cam_1_2.png"/>
 </p>
 
 选用正点原子的STM32F1精英板作为单片机开发板，芯片型号为STM32F103ZET6。
@@ -100,11 +102,11 @@ PID参数通过实验确定。实验表明，仅采用PD的效果更佳。
 经测试，该系统能够实现预期的功能。经过调参后，调节时间很短，超调较小，系统的快速性和平稳性均能达到预期目标。系统的不足之处在于有一定稳态误差，但是考虑到舵机成本较低，系统的精度处在可以接受的范围内。
 
 <p align="center">
-    <img width="500" img src="./images/result_1.jpg"/>
+    <img width="500" img src="./images/result_1.png"/>
 </p>
 
 下图分别是单人和多人的跟踪效果：
 
 <p align="center">
-    <img width="500" img src="./images/result_2.jpg"/>
+    <img width="500" img src="./images/result_2.png"/>
 </p>
