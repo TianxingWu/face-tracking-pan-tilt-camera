@@ -1,16 +1,16 @@
 # Face Tracking Pan-Tilt Camera
 
-<center>
+<p align="center">
     <img src="./images/example.gif">
-</center>
+</p>
 
 ## 一. 概述
 
 本项目为基于OpenCV-Python和STM32F103单片机的二自由度人脸跟踪舵机云台系统。
 
-<center>
+<p align="center">
     <img src="./images/cam.jpg">
-</center>
+</p>
 
 本系统的预期功能是实时检测摄像头中出现的人脸，并对其进行跟踪。要实现该功能，主要应解决如下问题：
 
@@ -41,9 +41,9 @@
 
 选用正点原子的STM32F1精英板作为单片机开发板，芯片型号为STM32F103ZET6。
 
-<center>
+<p align="center">
     <img src="./images/stm32_board.jpg">
-</center>
+</p>
 
 ### 2.2 软件部分
 
@@ -100,9 +100,9 @@ PID参数通过实验确定。实验表明，仅采用PD的效果更佳。
 
 经测试，该系统能够实现预期的功能。经过调参后，调节时间很短，超调较小，系统的快速性和平稳性均能达到预期目标。系统的不足之处在于有一定稳态误差，但是考虑到舵机成本较低，系统的精度处在可以接受的范围内。
 
-<center>
+<p align="center">
     <img src="./images/example.gif">
-</center>
+</p>
 
 下图分别是单人和多人的跟踪效果：
 
