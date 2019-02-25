@@ -102,5 +102,5 @@ PID参数通过实验确定。实验表明，仅采用PD的效果更佳。
 下图分别是单人和多人的跟踪效果：
 
 <center class="half">
-    <img src="./images/single.png" width="300"><img src="./images/multi.png" width="300">
+    <img src="./images/single.png"/><img src="./images/multi.png"/>
 </center>
