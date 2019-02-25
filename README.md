@@ -1,4 +1,4 @@
-#Face Tracking Pan-Tilt Camera
+# Face Tracking Pan-Tilt Camera
 
 <center>
     <img src="./images/example.gif">
@@ -35,8 +35,8 @@
 对普通usb摄像头进行拆解，安装到云台架上，即完成了基本的机械结构。
 
 <center class="half">
-    <img src="./images/cam1.jpg"/>
-    <img src="./images/cam2.jpg"/>
+    <img src="./images/cam_1.jpg" width="300"/>
+    <img src="./images/cam_2.jpg" width="300"/>
 </center>
 
 选用正点原子的STM32F1精英板作为单片机开发板，芯片型号为STM32F103ZET6。
@@ -107,6 +107,6 @@ PID参数通过实验确定。实验表明，仅采用PD的效果更佳。
 下图分别是单人和多人的跟踪效果：
 
 <center class="half">
-    <img src="./images/single.png"/>
-    <img src="./images/multi.png"/>
+    <img src="./images/single.png" width="300"/>
+    <img src="./images/multi.png" width="300"/>
 </center>
