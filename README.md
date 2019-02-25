@@ -4,8 +4,6 @@
     <img src="./images/example.gif">
 </p>
 
-[TOC]
-
 ## 一. 概述
 
 本项目为基于OpenCV-Python和STM32F103单片机的二自由度人脸跟踪舵机云台系统。
