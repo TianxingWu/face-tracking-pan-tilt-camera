@@ -71,11 +71,11 @@ STM32单片机主要应完成：接收串口数据、实现PD控制器、输出P
 
 STM32单片机要通过串口，根据设置的通讯协议接收PC端传来的坐标(X,Y)，将横纵坐标两个值分别存储到全局变量coords中。为此，编写串口接收程序如下：
 
-* [serial.c](/Code/serial.c)
+* [serial.c](/code/control/HARDWARE/serial/serial.c)
 
 上述程序中，为了更清晰地观察到单片机接收串口数据的情况，使用了开发板上的LED灯，在数据传输时闪烁。LED灯部分的驱动程序如下：
 
-* [led.c](/Code/led.c)
+* [led.c](/code/control/HARDWARE/LED/led.c)
 
 **2. PD控制器**
 
@@ -85,15 +85,17 @@ PID参数通过实验确定。实验表明，仅采用PD的效果更佳。
 
 这一部分的源码pid.c如下：
 
-* [pid.c](/Code/pid.c)
+* [pid.c](/code/control/HARDWARE/PID/pid.c)
 
 **3. 输出PWM**
 
-根据PD控制器输出的值作为占空比，通过时钟输出PWM信号。这部分的源码较多且繁琐，在此略去不提。
+根据PD控制器输出的值作为占空比，通过时钟输出PWM信号。源码如下：
+
+* [timer.c](/code/control/HARDWARE/TIMER/timer.c)
 
 **4. 主函数**
 
-* [main.c](/Code/main.c)
+* [main.c](/code/control/USER/main.c)
 
 ## 三. 实现效果
 
