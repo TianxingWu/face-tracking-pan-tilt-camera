@@ -71,7 +71,7 @@
 
 该部分的源代码详见：
 
-* [track_face.py](/Code/track_face.py)
+* [track_face.py](/code/track_face.py)
 
 #### 2.2.3 单片机：实现PD控制器
 
